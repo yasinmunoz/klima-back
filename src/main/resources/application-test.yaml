@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: klima
+
+logging:
+  level:
+    com.klima: DEBUG
+
+aemetapi:
+  schema: 'http'
+  host: 'localhost'
+  port: 8081
+  key: 'qwerty'

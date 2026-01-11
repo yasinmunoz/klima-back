@@ -1,0 +1,14 @@
+spring.config.import: "optional:secrets.yaml"
+
+spring:
+  application:
+    name: klima
+
+logging:
+  level:
+    com.klima: INFO
+
+aemetapi:
+  schema: 'https'
+  host: 'opendata.aemet.es'
+  port: 443
